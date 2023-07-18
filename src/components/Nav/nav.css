@@ -1,0 +1,40 @@
+.Container {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+}
+
+.Logo {
+    background-color: #F4F4F4 ;
+}
+
+.Left-site_countainer {
+    background-color:#F4F4F4 ;
+}
+
+.List-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    list-style-type: none;
+}
+
+li {
+    background-color: #F4F4F4;
+}
+a:visited, a:active{
+    color: black ;
+    background-color: #F4F4F4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FFD700;
+}
