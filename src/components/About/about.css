@@ -1,0 +1,43 @@
+section {
+    margin: 0;
+}
+
+.hero {
+    margin: 0;
+    height: 70vh;
+    display: flex;
+}
+
+.img-hero {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hero-text {
+    position: absolute;
+    font-size: 40px;
+    left: 900px;
+    top: 200px;
+    color: rgb(163, 163, 233);
+}
+
+.hero-par{
+    position: absolute;
+    font-size: 30px;
+    left: 870px;
+    top: 300px;
+    color: rgb(163, 163, 233);
+}
+
+.testemonial {
+    font-size: 15px;
+    text-align: center;
+    width: 900px;
+    margin:auto;
+    padding-top: 50px;
+    color: rgb(163, 163, 233);
+}

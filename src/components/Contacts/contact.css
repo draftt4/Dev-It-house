@@ -1,0 +1,44 @@
+
+
+.container-contacts {
+    margin: 0;
+    display: flex;
+    background-color: #F4F4F4;
+    padding-bottom: 100vh;
+}
+
+.contact-hero {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.contact-head,.contact-under {
+    margin-left: 220px;
+}
+
+
+.contact-img {
+    margin: 0;
+    height: 400px;
+    width: 600px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.loc-img {
+    height: 60px;
+    width: 60px;
+}
+
+.phone-img{
+    height: 60px;
+    width: 60px;
+}

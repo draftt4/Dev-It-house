@@ -60,38 +60,35 @@ span {
     text-align: center;
 }
 
-.card-container {
+.card-section {
+    background-color: #F4F4F4;
+    width: 100%;
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    background-color: #F4F4F4;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 0;
+    margin-right: 0;
   }
-
-  .Card {
+  
+  .card {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 8px;
-    border-bottom: 3px solid #ccc;
+    border-bottom: 4px solid #ccc;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
   }
-
-  .Card-brand {
-    font-size: 18px;
-    margin-bottom: 5px;
-    background-color: #F4F4F4;
-  }
-
-  .description {
-    font-size: 14px;
-    background-color: #F4F4F4;
-  }
-
-  .card-section {
-    background-color: #F4F4F4;
-    margin: 0;
-  }
-
-  .Card-logo img {
+  
+  .card-logo img {
     width: 60px;
     height: 60px;
     object-fit: cover;
@@ -99,8 +96,23 @@ span {
     background-color: #F4F4F4;
   }
 
-  .Card-logo {
+  .card-logo {
     background-color: #F4F4F4;
   }
-
+  
+  .card-content {
+    flex: 1;
+    background-color: #F4F4F4;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    background-color: #F4F4F4;
+  }
+  
+  .card p {
+    font-size: 14px;
+    background-color: #F4F4F4;
+  }
   
