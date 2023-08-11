@@ -26,15 +26,15 @@
 li {
     background-color: #F4F4F4;
 }
-a:visited, a:active{
+#nav-links:visited,#nav-links:active{
     color: black ;
     background-color: #F4F4F4;
 }
 
-a {
+#nav-links {
     text-decoration: none;
 }
 
-a:hover {
+#nav-links:hover {
     color:#FFD700;
 }
