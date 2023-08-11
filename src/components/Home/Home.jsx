@@ -7,9 +7,9 @@ import Node from "../../assets/NodeJS.png"
 import Redux from "../../assets/Redux.png"
 import Php from "../../assets/PHP.png"
 import Laravel from "../../assets/Laravel.png"
-import "../Main/main.css"
+import "../Home/home.css"
  
-function Main() {
+function Home() {
   return (
     <>
     <section className="hero-section">
@@ -91,4 +91,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Home

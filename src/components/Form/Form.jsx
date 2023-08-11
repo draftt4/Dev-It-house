@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import '../Form/form.css'
 import Formimage from "../../assets/Mainform.jpg"
 import emailjs from "@emailjs/browser";
+import { Link } from 'react-router-dom'
 
 const Form = () => {
   const formRef = useRef();
@@ -131,7 +132,7 @@ const Form = () => {
               onChange={handleChange}
               className='form-checkbox'
             />
-                <span className="span-leb">By clicking "Send," you agree to receive calls or text messages from us.</span>
+                <span className="span-leb">By clicking "Send," you agree to receive calls or text messages from us.<Link id='form-link' to='/Privacy'>Privacy policy</Link></span>
           </label>
         </form>
         </div>
