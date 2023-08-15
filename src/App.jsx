@@ -1,7 +1,7 @@
 import { BrowserRouter , Route , Routes} from "react-router-dom";
 import Nav from "./components/Nav/Nav"
 import Home from "./components/Home/home";
-import About from "./components/about/About"
+import About from "./components/About/About"
 import Service from "./components/Service/Service";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from './components/Footer/footer.jsx';
@@ -14,10 +14,10 @@ import Privacy from './components/Privicy/privicy';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Nav/>
-        <Routes>
-          <Route path="/" element={<Home/>}></Route>
+        <Routes path= "/" element={<Home/>}>
+          <Route index element={<Home/>}></Route>
           <Route path="/About" element={<About/>}></Route>
           <Route path="/Services" element={<Service/>}></Route>
           <Route path="/Contacts" element={<Contacts/>}> </Route>
