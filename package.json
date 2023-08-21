@@ -1,7 +1,7 @@
 {
-  "name": "dev-it-house",
+  "name": "ithousegroup",
   "homepage": "https://ithousegroup.com/",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
