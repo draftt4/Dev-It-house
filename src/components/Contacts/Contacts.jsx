@@ -1,7 +1,7 @@
 import Contacthero from "../../assets/Contacthero.jpg"
 import Map from "../../assets/map.png"
 import Phone from "../../assets/ring-phone.png"
-import '../Contacts/contact.css'
+import './contact.css'
 
 function Contacts() {
   return (

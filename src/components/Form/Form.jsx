@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import '../Form/form.css'
+import './form.css'
 import Formimage from "../../assets/Mainform.jpg"
 import emailjs from "@emailjs/browser";
 import { Link } from 'react-router-dom'
